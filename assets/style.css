@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap");
+@font-face {
+  font-family: "Intro";
+  src: url("./Intro/IntroDemo-BlackCAPS.otf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.btn {
+  background-color: #5222D0;
+  color: white;
+}
+
+.bin {
+  width: 115px;
+  height: 38px;
+  flex-shrink: 0;
+  border-radius: 100px;
+  background: #5222D0;
+  color: white;
+  border: none;
+  margin-right: 74px;
+}
+
+.header__logo {
+  margin-left: 76px;
+}
+.header .header__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main {
+  display: flex;
+}
+.main__main-info {
+  width: 50vw;
+}
+.main__main-info .main__title {
+  font-family: Intro;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+.main__main-info .title-first-page {
+  margin-top: 76px;
+  margin-left: 126px;
+}
+.main__main-info .main__paragraph {
+  font-family: Roboto Slab;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 160%;
+}
+.main__main-info .paragraph-first-page {
+  margin-top: 10px;
+  margin-left: 126px;
+}
+.main__main-info .btn-buy {
+  width: 270px;
+  height: 84px;
+  flex-shrink: 0;
+  border-radius: 40px;
+  font-family: Intro;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 40px;
+  margin-left: 126px;
+  margin-bottom: 40px;
+  border: none;
+}
+.main__main-info .nav {
+  margin-left: 126px;
+  margin-bottom: 80px;
+}
+.main__main-info .nav__link {
+  color: #5222D0;
+  font-family: Roboto Slab;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 160%;
+  text-decoration: none;
+  padding-right: 22px;
+}
+.main__main-info .nav__link:last-child {
+  padding-right: 0px;
+}
+.main__second {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+}
+.main__second .main__button-bin {
+  display: flex;
+  justify-content: flex-end;
+}
+.main__second .main__first-page-img {
+  background-image: url(../img/main.jpeg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+}/*# sourceMappingURL=style.css.map */
